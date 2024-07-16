@@ -1,22 +1,21 @@
-Metacrafters in this challenge, I have created The MyHome smart contract manages salary, fees, expenses, and pocket money.
+# MetaCrafters
 
-Also implemented the required statement:
-(I)require()
-(II)assert()
-(III)revert()
+In the Eth-Avax module 1. I write a smart contract based on the real world problem.
 
-Features
-(i)Set Expenses
-(ii)Allocate Pocket Money
-(iii)Check Remaining Salary
+## Description
+In this contract i take a situation, where a father get their salary and he has to pay the expenses and other mandatory things. In this smart code code, i showcase the use of require, assert and revert. Revert Statement in function where i set the salary and expenses. It works as if Father salary is less than the expenses then the statement is revert.Require statement in fuction PockeyMoney. Where it first checks the condition that the pocket money should be less than 100. And then assert in function to check the Remaining salary.
 
-Functions
-(i)setExpenses(uint _Salary, uint _Fees, uint _Expenses)
-Sets the values for salary, fees, and expenses.
-Reverts the transaction if the total of fees and expenses exceeds the salary.
-(ii)Children_PocketMoney(uint _PocketMoney)
-Allocates pocket money to children.
-Requires that the pocket money is less than or equal to 100.
-(iii)Salary_Remaining()
-Calculates the remaining salary after deducting fees, expenses, and pocket money.
-Asserts that the remaining salary is less than the initial salary.
+### Deploy Contract using Remix IDE.
+
+1. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+2. Click on Compile and then deploy.
+3. Now you contract got deployed.
+
+## Authors
+
+Baljeet
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
